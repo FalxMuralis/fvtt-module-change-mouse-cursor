@@ -1,7 +1,7 @@
 {
     "name": "change-mouse-cursor",
-    "title": "MTG Dice",
-    "description": "Adds a few MTG dice to DsN.",
+    "title": "Change Mouse Cursor",
+    "description": "Should change the mouse cursors in various situations",
     "author": "Falx",
     "version": "v1.0.0",
     "minimumCoreVersion": "0.7.0",
