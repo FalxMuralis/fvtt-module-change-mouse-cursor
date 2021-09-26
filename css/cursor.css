@@ -137,3 +137,7 @@ input[type="checkbox"] {
 input[type="text"] {
   cursor:url(../cursor/text.cur), text;
 }
+
+.window-app .window-resizable-handle {
+  cursor:url(../cursor/nwse-resize.cur), nwse-resize;
+}
