@@ -7,7 +7,7 @@
     "minimumCoreVersion": "0.7.0",
     "compatibleCoreVersion": "0.8.9",
     "styles": [
-		  "./css/style.css"
+		  "./css/cursor.css"
 	  ],
     "url": "https://github.com/FalxMuralis/fvtt-module-mtg-dice",
     "manifest": "https://github.com/FalxMuralis/fvtt-module-change-mouse-cursor/releases/latest/download/module.json",
