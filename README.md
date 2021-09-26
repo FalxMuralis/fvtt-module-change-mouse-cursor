@@ -8,3 +8,4 @@ To install copy this manifest link into your Foundry VTT plugin browser:
 Inspired by:
 
 * https://gitlab.com/sasmira/dnd-ui
+* https://github.com/Handyfon/myTab
