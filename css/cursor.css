@@ -141,3 +141,42 @@ input[type="text"] {
 .window-app .window-resizable-handle {
   cursor:url(../cursor/nwse-resize.cur), nwse-resize;
 }
+
+// Actor Sheet
+
+.dnd5e.sheet.actor.character .resource .attribute-value label.recharge {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+label.checkbox {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+.dnd5e.sheet.actor.character .resource .attribute-value label.recharge {
+  cursor:url(../cursor/text.cur), text;
+}
+
+.dnd5e.sheet input[type="number"] {
+  cursor:url(../cursor/text.cur), text;
+}
+
+input[type="number"] {
+  cursor:url(../cursor/text.cur), text;
+}
+
+.dnd5e.sheet .editable .rollable:hover{
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+.dnd5e.sheet.actor .inventory-list .item .item-name{
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+label.radio {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+input[type="radio"]{
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+label {cursor:inherit;}
