@@ -104,3 +104,36 @@ form .form-group .form-fields button,
 form button {
     cursor:url(../cursor/pointer.cur), pointer;
 }
+
+// -------------------
+
+label {
+  cursor:url(../cursor/normal.cur), default;
+}
+
+#chat-controls .chat-control-icon {
+  cursor:url(../cursor/normal.cur), default;
+}
+
+#module-management .package-list .package-title {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+select {
+  cursor:url(../cursor/normal.cur), default;
+}
+
+textarea {
+  cursor:url(../cursor/text.cur), text;
+}
+
+input[type=range] {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+input[type="checkbox"] {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+input[type="text"] {
+  cursor:url(../cursor/text.cur), text;
+}
