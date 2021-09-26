@@ -12,5 +12,5 @@ Inspired by:
 ## ToDo
 - [ ] Check actor sheet(s) and implement cursors there
 - [ ] Build a settings entry
-- [ ] Allow for interchangeable cursors
-- [ ] Allow for custom cursors
+  - [ ] Allow for interchangeable cursors
+  - [ ] Allow for custom cursors
