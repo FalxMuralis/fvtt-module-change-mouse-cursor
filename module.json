@@ -1,7 +1,7 @@
 {
     "name": "change-mouse-cursor",
     "title": "Change Mouse Cursor",
-    "description": "Should change the mouse cursors in various situations",
+    "description": "Changes the mouse cursors into the Runescape ones.",
     "author": "Falx",
     "version": "v1.2.2",
     "minimumCoreVersion": "0.7.0",
