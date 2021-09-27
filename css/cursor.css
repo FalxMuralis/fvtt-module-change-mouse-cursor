@@ -91,7 +91,6 @@ a{
 
 #client-settings .window-content form .form-group > label,
 #client-settings .window-content form .form-group select,
-#client-settings .form-group input,
 .app.window-app .form-group label,
 #sidebar .sidebar-tab #chat-controls div.roll-type-select select,
 #sidebar .sidebar-tab #chat-controls div.roll-type-select i.fas {
@@ -105,7 +104,7 @@ form button {
     cursor:url(../cursor/pointer.cur), pointer;
 }
 
-// -------------------
+/* ------------------- */
 
 label {
   cursor:url(../cursor/normal.cur), default;
@@ -142,7 +141,37 @@ input[type="text"] {
   cursor:url(../cursor/nwse-resize.cur), nwse-resize;
 }
 
-// Actor Sheet
+.directory .action-buttons button {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+#playlists #global-volume .playlist-header h4 {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+.dialog .dialog-buttons button {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* --- File Picker --- */
+
+.filepicker .directory > li.dir {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+.filepicker .directory > li {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+.filepicker .tiles-list li img {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+input {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* --- Actor Sheet --- */
 
 .dnd5e.sheet.actor.character .resource .attribute-value label.recharge {
   cursor:url(../cursor/pointer.cur), pointer;
