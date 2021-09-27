@@ -15,5 +15,5 @@ Inspired by:
 - [Simple Calendar (v1.3.44)](https://github.com/vigoren/foundryvtt-simple-calendar)
 - [Weather Control (v4.0.2)](https://gitlab.com/jstebenne/foundryvtt-weather-control)
 - [Tidy UI - Game Settings (v0.1.25)](https://github.com/sdenec/tidy-ui_game-settings)
-- [Sky's Alternate D&D 5e Character Sheet(v1.6.0)](https://github.com/Sky-Captain-13/foundry/tree/master/alt5e)
+- [Sky's Alternate D&D 5e Character Sheet (v1.6.0)](https://github.com/Sky-Captain-13/foundry/tree/master/alt5e)
 - [Dice so Nice! (v4.1.5)](https://gitlab.com/riccisi/foundryvtt-dice-so-nice)
