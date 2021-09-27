@@ -1,0 +1,16 @@
+/* - DnD 5e Game System - */
+.dnd5e.sheet.actor.character .resource .attribute-value label.recharge {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dnd5e.sheet input[type="number"] {
+  cursor:url(../cursor/text.cur), text !important;
+}
+
+.dnd5e.sheet .editable .rollable:hover{
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dnd5e.sheet.actor .inventory-list .item .item-name{
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}

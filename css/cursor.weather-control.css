@@ -1,0 +1,29 @@
+/* - Weather Control - */
+#weather-control-container .calendar-header {
+  cursor:url(../cursor/drag.cur), move !important;
+}
+
+#weather-control-container .calendar-header .header-navigation {
+  cursor:url(../cursor/normal.cur), default !important;
+}
+
+#weather-control-container .icon-btn,
+#weather-control-container #season-indicator {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#weather-container header select {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#weather-container .weather-refresh {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#weather-control-container #start-stop-clock {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#weather-control-container .time-controls li {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}

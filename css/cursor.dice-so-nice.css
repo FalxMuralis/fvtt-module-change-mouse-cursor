@@ -1,0 +1,28 @@
+/* - Dice so Nice - */
+#dice-configuration-canvas {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-so-nice .dsn-appearance-tabs span  {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-so-nice span.dsn-appearance-hint  {
+  cursor:url(../cursor/normal.cur), default !important;
+}
+
+.dice-so-nice .sfxs-list .sfx-name {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-so-nice .select2-container--default .select2-selection--multiple {
+  cursor:url(../cursor/text.cur), text !important;
+}
+
+.dice-so-nice .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-so-nice .select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+  cursor:url(../cursor/normal.cur), default !important;
+}

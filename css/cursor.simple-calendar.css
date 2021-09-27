@@ -1,0 +1,20 @@
+/* - Simple Calendar */
+.simple-calendar #simpleCalendar .calendar .days .week .day {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.simple-calendar #simpleCalendar .control {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.simple-calendar #simpleCalendar .controls .time-controls .row .time-unit .selector {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.simple-calendar #simpleCalendar .note:hover {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.simple-calendar-configuration .control {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}

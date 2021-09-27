@@ -1,0 +1,28 @@
+/* - Tidy UI - Game Settings - */
+#client-settings.app.window-app.form #config-tabs .tab[data-tab="modules"] .settings-list h2.module-header {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#client-settings.app.window-app.form #config-tabs .settings-list div.form-group button {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#client-settings form .form-group label span, #client-settings section.content .submenu > label span {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#client-settings.app.window-app.form #config-tabs .settings-list div.form-group input[type="checkbox"] {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#client-settings.app.window-app.form #config-tabs .settings-list div.form-group select {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#module-management input[type="checkbox"] {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#module-management button {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
