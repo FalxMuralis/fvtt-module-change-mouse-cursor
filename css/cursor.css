@@ -119,7 +119,7 @@ label {
 }
 
 select {
-  cursor:url(../cursor/normal.cur), default;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 textarea {
@@ -294,10 +294,43 @@ label {cursor:inherit;}
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
 
+#client-settings.app.window-app.form #config-tabs .settings-list div.form-group select {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
 #module-management input[type="checkbox"] {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
 
 #module-management button {
   cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+/* - Dice so Nice - */
+#dice-configuration-canvas {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-so-nice .dsn-appearance-tabs span  {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-so-nice span.dsn-appearance-hint  {
+  cursor:url(../cursor/normal.cur), default !important;
+}
+
+.dice-so-nice .sfxs-list .sfx-name {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-so-nice .select2-container--default .select2-selection--multiple {
+  cursor:url(../cursor/text.cur), text !important;
+}
+
+.dice-so-nice .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-so-nice .select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+  cursor:url(../cursor/normal.cur), default !important;
 }
