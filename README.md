@@ -9,6 +9,10 @@ To install copy this manifest link into your Foundry VTT plugin browser:
 - [DnD5e ui](https://gitlab.com/sasmira/dnd-ui)
 - [myTab](https://github.com/Handyfon/myTab)
 
+## Supported Game Systems
+
+- [DnD5e (v1.4.3)](https://gitlab.com/foundrynet/dnd5e)
+
 ## Supported Modules
 
 - [Simple Calendar (v1.3.44)](https://github.com/vigoren/foundryvtt-simple-calendar)
