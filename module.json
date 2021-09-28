@@ -3,7 +3,7 @@
     "title": "Change Mouse Cursor",
     "description": "Changes the mouse cursors into the Runescape ones.",
     "author": "Falx",
-    "version": "v1.3.0",
+    "version": "v1.3.1",
     "minimumCoreVersion": "0.7.0",
     "compatibleCoreVersion": "0.8.9",
     "styles": [
@@ -12,7 +12,8 @@
         "./css/cursor.dnd5e.css",
         "./css/cursor.simple-calendar.css",
         "./css/cursor.tidy-ui_game-settings.css",
-        "./css/cursor.weather-control.css"   
+        "./css/cursor.weather-control.css",
+        "./css/cursor.lib-wrapper.css"
     ],
     "url": "https://github.com/FalxMuralis/fvtt-module-mtg-dice",
     "manifest": "https://github.com/FalxMuralis/fvtt-module-change-mouse-cursor/releases/latest/download/module.json",
