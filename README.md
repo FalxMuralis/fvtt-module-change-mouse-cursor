@@ -22,3 +22,4 @@ To install copy this manifest link into your Foundry VTT plugin browser:
 - [Dice so Nice! (v4.1.5)](https://gitlab.com/riccisi/foundryvtt-dice-so-nice)
 - [Midi Quality of Life Improvements (v0.8.34)](https://gitlab.com/tposney/midi-qol)
 - [libWrapper (v1.10.6.0)](https://github.com/ruipin/fvtt-lib-wrapper)
+- [Dice Tray (v1.2.1)](https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator)
