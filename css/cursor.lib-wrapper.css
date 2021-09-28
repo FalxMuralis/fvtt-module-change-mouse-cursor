@@ -1,0 +1,12 @@
+/* --- libWrapper --- */
+.lib-wrapper .package-priority-group select {
+  cursor:url(../cursor/normal.cur), default !important;
+}
+
+option {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.lib-wrapper .caret.has-nested {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
