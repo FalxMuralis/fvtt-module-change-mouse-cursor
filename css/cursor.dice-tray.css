@@ -1,0 +1,8 @@
+/* --- Dice Tray --- */
+.dice-tray button {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-calculator > button, .dice-calculator .dice-calculator--button {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
