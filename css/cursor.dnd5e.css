@@ -7,10 +7,14 @@
   cursor:url(../cursor/text.cur), text !important;
 }
 
-.dnd5e.sheet .editable .rollable:hover{
+.dnd5e.sheet .editable .rollable:hover {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
 
-.dnd5e.sheet.actor .inventory-list .item .item-name{
+.dnd5e.sheet.actor .inventory-list .item .item-name {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dnd5e.chat-card .card-buttons button {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }

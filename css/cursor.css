@@ -208,3 +208,13 @@ input[type="radio"]{
 }
 
 label {cursor:inherit;}
+
+/* --- --- */
+
+#navigation .nav-item {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.dice-roll .dice-result {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}

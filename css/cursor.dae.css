@@ -1,0 +1,8 @@
+/* --- Dynamic Active Effects --- */
+.dnd5e.sheet.item .dae-effect-list .effect .effect-name {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.awesomplete > ul > li {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
