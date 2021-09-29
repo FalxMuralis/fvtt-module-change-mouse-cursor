@@ -14,7 +14,9 @@
         "./css/cursor.tidy-ui_game-settings.css",
         "./css/cursor.weather-control.css",
         "./css/cursor.lib-wrapper.css",
-        "./css/cursor.dice-tray.css"
+        "./css/cursor.dice-tray.css",
+        "./css/cursor.changelogs.css",
+        "./css/cursor.dae.css"
     ],
     "url": "https://github.com/FalxMuralis/fvtt-module-mtg-dice",
     "manifest": "https://github.com/FalxMuralis/fvtt-module-change-mouse-cursor/releases/latest/download/module.json",
