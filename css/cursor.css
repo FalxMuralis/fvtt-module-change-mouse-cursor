@@ -61,7 +61,6 @@ a{
 
 #controls .scene-control, #controls .control-tool {
     cursor:url(../cursor/pointer.cur), pointer !important; 
-    cursor:url(../cursor/normal.cur), default !important; 
 }
 
 .app.window-app .form-group input[type="range"]::-webkit-slider-thumb {
@@ -216,5 +215,17 @@ label {cursor:inherit;}
 }
 
 .dice-roll .dice-result {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#players h3 {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.directory .directory-list .directory-item.folder {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+#scenes .scene {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
