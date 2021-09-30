@@ -18,3 +18,7 @@
 .dnd5e.chat-card .card-buttons button {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
+
+.dnd5e.chat-card .card-header h3 {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}

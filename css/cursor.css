@@ -1,91 +1,46 @@
-.chat-card-button {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-
 body {
   cursor:url(../cursor/normal.cur), default; 
 }
 
-a{
-  cursor:url(../cursor/pointer.cur), pointer; 
-}
-
-.draggable{
-  cursor:url(../cursor/drag.cur), move; 
-}
-
-#hotbar .macro{
-  cursor:url(../cursor/pointer.cur), pointer; 
-}
-
-#playlists-popout .global-volume::-webkit-slider-thumb,
-    #sidebar #playlists .global-volume::-webkit-slider-thumb {
-    cursor:url(../cursor/pointer.cur), pointer;
-}
-#playlists-popout li.playlist:not(:first-of-type) li.sound .sound-volume::-webkit-slider-thumb,
-      #sidebar #playlists li.playlist:not(:first-of-type) li.sound .sound-volume::-webkit-slider-thumb {
-        cursor:url(../cursor/pointer.cur), pointer; 
-    }
-
 #sidebar #settings button {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 .app.window-app.sheet.wfrp4e.actor.character-sheet .tab.main.active .main-row .movement.row-section .move-value .auto-calc-toggle {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 .app.window-app.sheet.wfrp4e.actor.npc-sheet  .main-row .movement.row-section .move-value .auto-calc-toggle {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 .app.window-app.sheet.wfrp4e.actor.creature-sheet  .main-row .movement.row-section .move-value .auto-calc-toggle {
-    cursor:url(../cursor/pointer.cur), pointer;
-}
-
-#navigation #scene-list .scene.view, #navigation #scene-list .scene.context {
-    cursor:url(../cursor/normal.cur), default; 
-}
-
-#navigation #nav-toggle {
-    cursor:url(../cursor/normal.cur), default; 
-}
-
-#navigation #scene-list .scene.nav-item {
-    cursor:url(../cursor/normal.cur), default; 
-}
-
-#controls .scene-control.active, #controls .control-tool.active, #controls .scene-control:hover, #controls .control-tool:hover {
-    cursor:url(../cursor/normal.cur), default; 
-}
-
-#controls .scene-control, #controls .control-tool {
-    cursor:url(../cursor/pointer.cur), pointer !important; 
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 .app.window-app .form-group input[type="range"]::-webkit-slider-thumb {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 .token-sheet .tab[data-tab="image"] input[type="range"]::-webkit-slider-thumb {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 #drawing-config .tab[data-tab="image"] input[type="range"]::-webkit-slider-thumb {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 .metacurrency-value {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 .overcast-button,
 .chargen-button {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 #effects-config .flex2::-webkit-slider-thumb {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 #client-settings .window-content form .form-group > label,
@@ -93,21 +48,17 @@ a{
 .app.window-app .form-group label,
 #sidebar .sidebar-tab #chat-controls div.roll-type-select select,
 #sidebar .sidebar-tab #chat-controls div.roll-type-select i.fas {
-    cursor:url(../cursor/normal.cur), default; 
+  cursor:url(../cursor/normal.cur), default; 
 }
 
 #client-settings section.content .submenu > button,
 #client-settings .window-content button label,
 form .form-group .form-fields button,
 form button {
-    cursor:url(../cursor/pointer.cur), pointer;
+  cursor:url(../cursor/pointer.cur), pointer;
 }
 
 /* ------------------- */
-
-label {
-  cursor:url(../cursor/normal.cur), default;
-}
 
 #chat-controls .chat-control-icon {
   cursor:url(../cursor/normal.cur), default;
@@ -115,25 +66,6 @@ label {
 
 #module-management .package-list .package-title {
   cursor:url(../cursor/pointer.cur), pointer;
-}
-
-select {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-
-textarea {
-  cursor:url(../cursor/text.cur), text;
-}
-
-input[type=range] {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-input[type="checkbox"] {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-
-input[type="text"] {
-  cursor:url(../cursor/text.cur), text;
 }
 
 .window-app .window-resizable-handle {
@@ -144,11 +76,172 @@ input[type="text"] {
   cursor:url(../cursor/pointer.cur), pointer;
 }
 
-#playlists #global-volume .playlist-header h4 {
+/* --- Actor Sheet --- */
+label {cursor:inherit;}
+
+/* --- --- */
+#players h3 {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+.directory .directory-list .directory-item.folder {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+/* ---------------------------------------- */
+/* ---       From style.css file        --- */
+/* ---------------------------------------- */
+/* --- Links --- */
+a {
   cursor:url(../cursor/pointer.cur), pointer;
 }
 
+/* --- Inputs --- */
+input {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* Checkbox Input */
+label.checkbox {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+input[type="checkbox"] {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* Select Boxes */
+select {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+/* Text Areas */
+textarea {
+  cursor:url(../cursor/text.cur), text;
+}
+
+/* Text Input */
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="time"] {
+  cursor:url(../cursor/text.cur), text;
+}
+
+/* Radio Input */
+label.radio {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+input[type="radio"]{
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* Range Input */
+input[type=range]::-webkit-slider-runnable-track {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+input[type=range]::-moz-range-track {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+input[type=range]::-moz-range-thumb {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+input[type=range]::-ms-track {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* --- Draggable Containers --- */
+.draggable {
+  cursor:url(../cursor/drag.cur), move;
+}
+
+/* --- File Picker --- */
+.filepicker .directory > li {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+.filepicker .directory > li.dir {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+.filepicker .tiles-list li img {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* --- TinyMCE Editor --- */
+.dice-roll .dice-part.die {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+.dice-roll .dice-result {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* --- Chat --- */
+#navigation .nav-item {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+#navigation #scene-list .scene.view,
+#navigation #scene-list .scene.context {
+  cursor:url(../cursor/normal.cur), default;
+}
+#navigation #nav-toggle {
+  cursor:url(../cursor/normal.cur), default; 
+}
+#navigation #scene-list .scene.nav-item {
+  cursor:url(../cursor/normal.cur), default; 
+}
+
+/* --- Main Menu --- */
+#menu #menu-items li {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* --- Scene Controls --- */
+#controls .scene-control,
+#controls .control-tool {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+#controls .scene-control.active,
+#controls .control-tool.active,
+#controls .scene-control:hover,
+#controls .control-tool:hover {
+  cursor:url(../cursor/normal.cur), default; 
+}
+#controls .active .control-tools {
+  cursor:url(../cursor/normal.cur), default; 
+}
+#scenes .scene {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+/* --- Hotbar --- */
+#hotbar .macro {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* --- Playlists --- */
+#playlists .playlist .playlist-header .playlist-name {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+#playlists #global-volume .playlist-header h4 {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+#playlists-popout .global-volume::-webkit-slider-thumb,
+#sidebar #playlists .global-volume::-webkit-slider-thumb {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+#playlists-popout li.playlist:not(:first-of-type) li.sound .sound-volume::-webkit-slider-thumb,
+#sidebar #playlists li.playlist:not(:first-of-type) li.sound .sound-volume::-webkit-slider-thumb {
+  cursor:url(../cursor/pointer.cur), pointer; 
+}
+
+/* --- Dialog Window --- */
 .dialog .dialog-buttons button {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
+
+/* --- HUD Application --- */
+.placeable-hud .control-icon {
   cursor:url(../cursor/pointer.cur), pointer;
 }
 
@@ -170,62 +263,5 @@ input[type="text"] {
 }
 
 .tox .tox-collection__item {
-  cursor:url(../cursor/pointer.cur), pointer !important;
-}
-
-/* --- File Picker --- */
-.filepicker .directory > li.dir {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-
-.filepicker .directory > li {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-
-.filepicker .tiles-list li img {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-
-input {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-
-/* --- Actor Sheet --- */
-label.checkbox {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-
-input[type="number"] {
-  cursor:url(../cursor/text.cur), text;
-}
-
-label.radio {
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-input[type="radio"]{
-  cursor:url(../cursor/pointer.cur), pointer;
-}
-
-label {cursor:inherit;}
-
-/* --- --- */
-
-#navigation .nav-item {
-  cursor:url(../cursor/pointer.cur), pointer !important;
-}
-
-.dice-roll .dice-result {
-  cursor:url(../cursor/pointer.cur), pointer !important;
-}
-
-#players h3 {
-  cursor:url(../cursor/pointer.cur), pointer !important;
-}
-
-.directory .directory-list .directory-item.folder {
-  cursor:url(../cursor/pointer.cur), pointer !important;
-}
-
-#scenes .scene {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
