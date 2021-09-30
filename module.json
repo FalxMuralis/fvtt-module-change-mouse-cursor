@@ -3,7 +3,7 @@
     "title": "Change Mouse Cursor",
     "description": "Changes the mouse cursors into the Runescape ones.",
     "author": "Falx",
-    "version": "v1.3.4",
+    "version": "v1.3.5",
     "minimumCoreVersion": "0.7.0",
     "compatibleCoreVersion": "0.8.9",
     "styles": [
