@@ -88,6 +88,10 @@ label {cursor:inherit;}
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
 
+button:disabled, input:disabled, select:disabled {
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+
 /* ---------------------------------------- */
 /* ---       From style.css file        --- */
 /* ---------------------------------------- */
@@ -97,6 +101,9 @@ a {
 }
 
 /* --- Inputs --- */
+button {
+  cursor:url(../cursor/pointer.cur), pointer;
+}
 input {
   cursor:url(../cursor/pointer.cur), pointer;
 }
@@ -269,6 +276,7 @@ input[type=range]::-ms-track {
 /* ---------------------------------------- */
 /* ---            Plutonium             --- */
 /* ---------------------------------------- */
+/* From style.css */
 .btn,
 a.btn,
 label.btn {
@@ -335,7 +343,6 @@ label.btn.disabled[disabled] {
 .fltr - cls__tgl.disabled {
   cursor:url(../cursor/normal.cur), default !important;
 }
-/* -------- */
 .rd__image {
   cursor:url(../cursor/zoom-in.cur), zoom - in !important;
 }
@@ -375,7 +382,6 @@ label.btn.disabled[disabled] {
 .hoverborder__resize - nw {
   cursor:url(../cursor/nwse-resize.cur), nwse - resize !important;
 }
-/* ----------------------- */
 .ui - list__btn - inline {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
@@ -410,7 +416,6 @@ label.btn.disabled[disabled] {
 .ui - pick__btn - remove {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
-/* ---- */
 button: disabled, input: disabled, select: disabled {
   cursor:url(../cursor/not-allowed.cur), not - allowed !important;
 }
@@ -423,7 +428,6 @@ button: disabled, input: disabled, select: disabled {
 .cfg__btn - tab - header {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
-/* ---- */
 .manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell + .manc - sp__btn - prepare {
   cursor:url(../cursor/not-allowed.cur), not - allowed !important;
 }
@@ -466,4 +470,107 @@ button: disabled, input: disabled, select: disabled {
 }
 .manc - sp__is - max - prepared - spells--is - over - limit.manc - sp__btn - prepare.active.disabled, .manc - sp__is - max - prepared - spells--is - over - limit.manc - sp__btn - prepare.active[disabled]{
   cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+/* --- From Artbrowser.css --- */
+.artr__wrp button {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.artr__wrp.artr__side__tag_header {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.artr__wrp.artr__crumb,
+.artr__wrp.artr__crumb: hover,
+.artr__wrp.artr__crumb: visited,
+.artr__wrp.artr__crumb: active,
+.artr__wrp.artr__crumb: focus {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.artr__wrp.artr__item__menu_item {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+/* custom */
+.artr__wrp .artr__side__head {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.artr__wrp .artr__side__tag_header {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.artr__wrp .artr__search__field,
+.artr__wrp .artr__side__wrp-tag-filter input {
+  cursor:url(../cursor/text.cur), text !important;
+}
+.artr__wrp .artr__item__btn-toggle-expand {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.mr-2 {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.artr__wrp .artr__crumb {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.artr__wrp .artr__item__menu_item {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+
+
+/* ----------- */
+/* custom */
+.sidebar-tab .action-buttons button, .dir__btn-header {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+
+
+/* Importer */
+.btn-group--top>input.form-control,
+.btn-group--top>label,
+.btn-group--top>button,
+.btn-group--top>select,
+.btn-group--top>a.btn,
+.btn-group--top>div.btn,
+.input-group--top>input.form-control, 
+.input-group--top>label, 
+.input-group--top>button, 
+.input-group--top>select, 
+.input-group--top>a.btn, 
+.input-group--top>div.btn {
+  cursor:url(../cursor/pointer.cur), pointer !important; 
+}
+
+.btn-group--bottom>input.form-control,
+.btn-group--bottom>label,
+.btn-group--bottom>button,
+.btn-group--bottom>select,
+.btn-group--bottom>a.btn,
+.btn-group--bottom>div.btn,
+.input-group--bottom>input.form-control,
+.input-group--bottom>label,
+.input-group--bottom>button,
+.input-group--bottom>select,
+.input-group--bottom>a.btn,
+.input-group--bottom>div.btn {
+  cursor:url(../cursor/pointer.cur), pointer !important; 
+}
+
+input.form-control, textarea.form-control {
+  cursor:url(../cursor/text.cur), text !important; 
+}
+
+.fltr__mini-pill {
+  cursor:url(../cursor/pointer.cur), pointer !important; 
+}
+
+.ui-list__btn-inline {
+  cursor:url(../cursor/pointer.cur), pointer !important; 
+}
+
+/* --- */
+.cfg__btn-tab-header  {
+  cursor:url(../cursor/pointer.cur), pointer !important; 
+}
+
+.help:hover,
+.help:active,
+.help:focus {
+  cursor:url(../cursor/help.cur), help !important; 
 }
