@@ -265,3 +265,205 @@ input[type=range]::-ms-track {
 .tox .tox-collection__item {
   cursor:url(../cursor/pointer.cur), pointer !important;
 }
+
+/* ---------------------------------------- */
+/* ---            Plutonium             --- */
+/* ---------------------------------------- */
+.btn,
+a.btn,
+label.btn {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.btn[disabled],
+.btn.disabled,
+a.btn[disabled],
+a.btn.disabled,
+label.btn[disabled],
+label.btn.disabled {
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.btn[disabled].disabled,
+.btn[disabled][disabled],
+.btn.disabled.disabled,
+.btn.disabled[disabled],
+a.btn[disabled].disabled,
+a.btn[disabled][disabled],
+a.btn.disabled.disabled,
+a.btn.disabled[disabled],
+label.btn[disabled].disabled,
+label.btn[disabled][disabled],
+label.btn.disabled.disabled,
+label.btn.disabled[disabled] {
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.help {
+  cursor:url(../cursor/help.cur), help !important;
+}
+.help - subtle {
+  cursor:url(../cursor/help.cur), help !important;
+}
+.clickable {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.not - clickable {
+  cursor:url(../cursor/normal.cur), default !important;
+}
+.copyable {
+  cursor:url(../cursor/copy.cur), copy !important;
+}
+.fltr__summary_item {
+  cursor:url(../cursor/help.cur), help !important;
+}
+.fltr__summary_item_spacer {
+  cursor:url(../cursor/normal.cur), default !important;
+}
+.fltr__btn_nest {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.fltr__pill {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.fltr__mini - pill {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.fltr__group - comb - toggle {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.fltr - cls__tgl {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.fltr - cls__tgl.disabled {
+  cursor:url(../cursor/normal.cur), default !important;
+}
+/* -------- */
+.rd__image {
+  cursor:url(../cursor/zoom-in.cur), zoom - in !important;
+}
+.rd__data - embed - header {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.rd__wrp - loadbrew--ready {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.hoverborder--btm {
+  cursor:url(../cursor/ns-resize.cur), ns - resize !important;
+}
+.hoverborder--top {
+  cursor:url(../cursor/drag.cur), move !important;
+}
+.hoverborder__resize - n {
+  cursor:url(../cursor/ns-resize.cur), ns - resize !important;
+}
+.hoverborder__resize - ne {
+  cursor:url(../cursor/nesw-resize.cur), nesw - resize !important;
+}
+.hoverborder__resize - e {
+  cursor:url(../cursor/ew-resize.cur), ew - resize !important;
+}
+.hoverborder__resize - se {
+  cursor:url(../cursor/nwse-resize.cur), nwse - resize !important;
+}
+.hoverborder__resize - s {
+  cursor:url(../cursor/ns-resize.cur), ns - resize !important;
+}
+.hoverborder__resize - sw {
+  cursor:url(../cursor/nesw-resize.cur), nesw - resize !important;
+}
+.hoverborder__resize - w {
+  cursor:url(../cursor/ew-resize.cur), ew - resize !important;
+}
+.hoverborder__resize - nw {
+  cursor:url(../cursor/nwse-resize.cur), nwse - resize !important;
+}
+/* ----------------------- */
+.ui - list__btn - inline {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.ui - search__row {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.ui - tab__btn - tab - head {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.ui - prof__btn - cycle {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.ui - prof__btn - cycle.disabled {
+  cursor:url(../cursor/normal.cur), default !important;
+}
+.ui - dir__face {
+  cursor:url(../cursor/grab.cur), grab !important;
+}
+.ui - drag__patch {
+  cursor:url(../cursor/drag.cur), move !important;
+}
+.ui - tip__parent {
+  cursor:url(../cursor/help.cur), help !important;
+}
+.ui - ctx__row {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.ui - ctx__row.disabled,
+.ui - ctx__row.disabled: hover {
+  cursor:url(../cursor/normal.cur), default !important;
+}
+.ui - pick__btn - remove {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+/* ---- */
+button: disabled, input: disabled, select: disabled {
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.glyphicon.top - border - icon, .glyphicon.delete-icon {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.render - roller {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.cfg__btn - tab - header {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+/* ---- */
+.manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell + .manc - sp__btn - prepare {
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell + .manc - sp__btn - prepare.disabled, .manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell + .manc - sp__btn - prepare[disabled]{
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell.active + .manc - sp__btn - prepare {
+  cursor:url(../cursor/pointer.cur), pointer !important;
+}
+.manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell.active + .manc - sp__btn - prepare.disabled, .manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell.active + .manc - sp__btn - prepare[disabled]{
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__is - max - prepared - spells.manc - sp__btn - prepare: not(.active) {
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+
+}
+.manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__is - max - prepared - spells--is - over - limit.manc - sp__btn - prepare.active.disabled, .manc - sp__is - prepared - caster.manc - sp__is - learn - caster.manc - sp__is - max - learned - spells.manc - sp__is - max - prepared - spells--is - over - limit.manc - sp__btn - prepare.active[disabled]{
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - max - learned - cantrips.manc - sp__btn - learn - cantrip: not(.active).disabled, .manc - sp__is - max - learned - cantrips.manc - sp__btn - learn - cantrip: not(.active)[disabled]{
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - max - learned - cantrips--is - over - limit.manc - sp__btn - learn - cantrip.active.disabled, .manc - sp__is - max - learned - cantrips--is - over - limit.manc - sp__btn - learn - cantrip.active[disabled]{
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell: not(.active) {
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell: not(.active).disabled, .manc - sp__is - max - learned - spells.manc - sp__btn - learn - spell: not(.active)[disabled]{
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - max - learned - spells--is - over - limit.manc - sp__btn - learn - spell.active.disabled, .manc - sp__is - max - learned - spells--is - over - limit.manc - sp__btn - learn - spell.active[disabled]{
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - max - prepared - spells.manc - sp__btn - prepare: not(.active) {
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - max - prepared - spells.manc - sp__btn - prepare: not(.active).disabled, .manc - sp__is - max - prepared - spells.manc - sp__btn - prepare: not(.active)[disabled]{
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
+.manc - sp__is - max - prepared - spells--is - over - limit.manc - sp__btn - prepare.active.disabled, .manc - sp__is - max - prepared - spells--is - over - limit.manc - sp__btn - prepare.active[disabled]{
+  cursor:url(../cursor/not-allowed.cur), not - allowed !important;
+}
